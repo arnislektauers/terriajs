@@ -9,19 +9,8 @@ matrix:
       - xvfb
     script:
     - npm run prettier-check
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    - pyenv shell 3.7
->>>>>>> fcad58df0... Update mkdocs to current version
-=======
     - pyenv shell 3.6
-<<<<<<< HEAD
->>>>>>> 5df239efd... Guess that Travis has Python 3.6 available 🤞
-    - pip install -r doc/requirements.txt
-=======
     - pip install -r requirements.txt
->>>>>>> 806838b3b... Update .travis.yml
     - gulp lint docs release
     - gulp test-travis
     env:
